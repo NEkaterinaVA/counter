@@ -11,6 +11,7 @@ var flagWords = []string{"счёт", "числ", "знач", "табл"}
 var counter int
 
 func main(){
+	fmt.Println("Вы что-то хотели?")
 	reader := bufio.NewReader(os.Stdin)
 	text, err := reader.ReadString('\n')
 	if err != nil{
@@ -26,5 +27,5 @@ func main(){
 		}
 	}
 
-	fmt.Println("Количество любопытных человек - ", counter)
+	fmt.Println("Количество любопытных человек -", counter)
 }
