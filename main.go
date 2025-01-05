@@ -10,7 +10,6 @@ import (
 var flagWords = []string{"счёт", "числ", "знач", "табл"}
 var counter int
 
-// Небольшое изменение для проверки git config
 func main(){
 	fmt.Println("Вы что-то хотели?")
 	reader := bufio.NewReader(os.Stdin)
